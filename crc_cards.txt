@@ -1,0 +1,20 @@
+CLASS: Expense
+RESPONSIBILITIES                     | COLLABORATORS
+-------------------------------------|-------------
+Knows its name                       |
+Knows its amount                     |
+Knows its category                   |
+Can display itself as a string       | 
+
+CLASS: Budget
+RESPONSIBILITIES                     | COLLABORATORS
+-------------------------------------|-------------
+Knows its budget name                |
+Knows its budget amount              |
+Tracks its list of expenses          | Expense
+Can add expenses                     | Expense
+Can total spend                      | Expense
+Can find remaining balance           | Expense
+Can check if overbudget              | Expense
+Can check for largest expense        | Expense
+Can display itself as a string       | Expense
